@@ -1,0 +1,29 @@
+body {
+  width: 100%;
+}
+nav img, #slogan, nav ul, nav li{
+  display: inline-block;
+}
+
+footer {
+  border-top: 1px solid gray;
+}
+footer::after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-image: url('images/small-logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  border-top: inherit;
+  border-top-color: transparent;
+}
+
+summary button {
+  background-color: #bc6f58;
+  color: white;
+}
