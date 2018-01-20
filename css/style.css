@@ -8,22 +8,43 @@ nav, header, section, summary, footer{
   padding: 0 0;
 }
 
-
-
 nav img, #slogan, nav ul, nav li{
   display: inline-block;
+}
+#sloganParent {
+  display: inline-block;
+  width: 94.6%;
 }
 
 #slogan h2 {
   font-family: 'Lobster', cursive;
+  font-size: 34px;
 }
 
-#slogan p, #storeName p{
+#slogan p, #printerContainer p{
   font-family: 'Cormorant Garamond', serif;
   font-size: 10px;
 }
-nav ul {
+nav {
+  border-bottom: 5px solid gray;
+}
+#sloganParent ul {
   float: right;
+}
+
+#slogan h2, #slogan p{
+  margin: 0;
+}
+#storeName {
+  margin-bottom: 0;
+}
+#printerContainer {
+  margin-top: 0;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 #storeName, header p, header img {
@@ -41,6 +62,9 @@ header h2 {
 }
 header p {
   margin-top: 0;
+}
+section {
+  border-bottom: 5px solid gray;
 }
 
 section p{
@@ -73,11 +97,20 @@ summary button {
   margin-top: 30px;
 }
 
-footer {
-  border-top: 1px solid gray;
-  
-  
+.footerDiv, footer img {
+  display: inline-block;
+   
 }
+
+footer img {
+  vertical-align: middle;
+}
+.footerDiv {
+  width: 47.5%;
+  border-top: 1px solid gray;
+}
+
+
 footer::after{
   content: '';
   position: absolute;
