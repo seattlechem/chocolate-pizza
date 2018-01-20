@@ -1,12 +1,82 @@
 body {
-  width: 100%;
+  width: 950px;
 }
+
+nav, header, section, summary, footer{
+  width: 901px;
+  margin: 0 30%;
+  padding: 0 0;
+}
+
+
+
 nav img, #slogan, nav ul, nav li{
   display: inline-block;
 }
 
+#slogan h2 {
+  font-family: 'Lobster', cursive;
+}
+
+#slogan p, #storeName p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 10px;
+}
+nav ul {
+  float: right;
+}
+
+#storeName, header p, header img {
+  display: inline-block;
+}
+header {
+  vertical-align: bottom;
+}
+#printer {
+  float: right;
+}
+
+header h2 {
+  margin: 0;
+}
+header p {
+  margin-top: 0;
+}
+
+section p{
+  margin: 1% 0;
+  padding-right: 0;
+}
+
+section ul {
+  background-image: url("../images/list-bg.png");
+  columns: 2;
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 4% 4%;
+}
+
+
+summary img, #summaryDiv, summary button {
+  display: inline-block;
+}
+
+#summaryDiv {
+  width: 60%;
+}
+summary button {
+  background-color: #bc6f58;
+  color: white;
+  float: right;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
 footer {
   border-top: 1px solid gray;
+  
+  
 }
 footer::after{
   content: '';
@@ -23,7 +93,13 @@ footer::after{
   border-top-color: transparent;
 }
 
-summary button {
-  background-color: #bc6f58;
-  color: white;
+footer p {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+
+footer p:nth-child(2){
+  margin-top: 1px;
 }
