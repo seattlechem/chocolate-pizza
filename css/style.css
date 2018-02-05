@@ -1,0 +1,138 @@
+body {
+  width: 950px;
+}
+
+nav, header, section, summary, footer{
+  width: 901px;
+  margin: 0 30%;
+  padding: 0 0;
+}
+
+nav img, #slogan, nav ul, nav li{
+  display: inline-block;
+}
+#sloganParent {
+  display: inline-block;
+  width: 94.6%;
+}
+
+#slogan h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 34px;
+}
+
+#slogan p, #printerContainer p{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 10px;
+}
+nav {
+  border-bottom: 5px solid gray;
+}
+#sloganParent ul {
+  float: right;
+}
+
+#slogan h2, #slogan p{
+  margin: 0;
+}
+#storeName {
+  margin-bottom: 0;
+}
+#printerContainer {
+  margin-top: 0;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+#storeName, header p, header img {
+  display: inline-block;
+}
+header {
+  vertical-align: bottom;
+}
+#printer {
+  float: right;
+}
+
+header h2 {
+  margin: 0;
+}
+header p {
+  margin-top: 0;
+}
+section {
+  border-bottom: 5px solid gray;
+}
+
+section p{
+  margin: 1% 0;
+  padding-right: 0;
+}
+
+section ul {
+  background-image: url("../images/list-bg.png");
+  columns: 2;
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 4% 4%;
+}
+
+
+summary img, #summaryDiv, summary button {
+  display: inline-block;
+}
+
+#summaryDiv {
+  width: 60%;
+}
+summary button {
+  background-color: #bc6f58;
+  color: white;
+  float: right;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.footerDiv, footer img {
+  display: inline-block;
+   
+}
+
+footer img {
+  vertical-align: middle;
+}
+.footerDiv {
+  width: 47.5%;
+  border-top: 1px solid gray;
+}
+
+
+footer::after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-image: url('images/small-logo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  border-top: inherit;
+  border-top-color: transparent;
+}
+
+footer p {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  
+}
+
+footer p:nth-child(2){
+  margin-top: 1px;
+}
